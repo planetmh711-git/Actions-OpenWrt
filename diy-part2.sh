@@ -18,3 +18,6 @@
 
 # Modify hostname
 #sed -i 's/OpenWrt/P3TERX-Router/g' package/base-files/files/bin/config_generate
+echo "CONFIG_PACKAGE_kmod-oaf=y" >> .config
+echo "CONFIG_PACKAGE_appfilter=y" >> .config
+echo "CONFIG_PACKAGE_luci-app-oaf=y" >> .config
