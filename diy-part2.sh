@@ -62,5 +62,3 @@ cat << 'EOF' > package/kernel/mt76/patches/901-mcu-precal-bypass.patch
  	return 0;
  }
 EOF
-
-# ---------------------------------------------------------------------------------
