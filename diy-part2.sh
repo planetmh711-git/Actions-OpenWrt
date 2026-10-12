@@ -11,7 +11,7 @@
 #
 
 # ---------------------------------------------------------------------------------
-# Section 1: Create Persistent Driver Patches for MediaTek MT7615E Radio
+# Section 1: Implement Driver Patches for MediaTek MT7615E Radio
 # ---------------------------------------------------------------------------------
 mkdir -p package/kernel/mt76/patches
 
@@ -64,4 +64,3 @@ cat << 'EOF' > package/kernel/mt76/patches/901-mcu-precal-bypass.patch
 EOF
 
 # ---------------------------------------------------------------------------------
-# Se
