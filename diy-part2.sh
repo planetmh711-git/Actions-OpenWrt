@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-# https://github.com/P3TERX/Actions-OpenWrt
+# https://github.com
 # File name: diy-part2.sh
 # Description: OpenWrt DIY script part 2 (After Update feeds)
 #
@@ -13,7 +13,7 @@
 # Step 1: Force initialization of package directories so feed targets are mapped
 mkdir -p feeds/base/package/kernel/mt76/patches/
 
-# Step 2: Inject a combined patch structure that executes safely across openwrt toolchains
+# Step 2: Inject the exact community patch structure
 cat << 'EOF' > feeds/base/package/kernel/mt76/patches/999-mt7615-fix-power-and-mcs.patch
 --- a/mt7615/eeprom.c
 +++ b/mt7615/eeprom.c
